@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytorch-cottention
+version = "1.0.0"
+authors = [
+  { name="Lee Jonghyun", email="bytecakelake@gmail.com" },
+]
+description = "A simple implementation of Attention with linear space-time complexity in PyTorch"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "torch>=2.0.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/bytecakelake/pytorch-cottention"
