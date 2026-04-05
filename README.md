@@ -2,7 +2,7 @@
 
 **Efficient Attention in PyTorch: Linear Space and Time Complexity**
 
-This library provides a high-performance implementation of **Cosine Similarity Attention (Cottention)**. Unlike standard Softmax Attention which suffers from quadratic ($O(n^2)$) complexity, this implementation achieves **Linear complexity ($O(n)$)** in both space and time, enabling the processing of significantly longer sequences with a constant memory footprint during inference.
+This library provides a high-performance implementation of **Cosine Similarity Attention (Cottention)**. Unlike standard Softmax Attention which suffers from quadratic ( $O(n^2)$ ) complexity, this implementation achieves **Linear complexity ( $O(n)$ )** in both space and time, enabling the processing of significantly longer sequences with a constant memory footprint during inference.
 
 ## Key Features
 
