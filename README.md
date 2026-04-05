@@ -15,9 +15,7 @@ This library provides a high-performance implementation of **Cosine Similarity A
 Install directly from the source:
 
 ```bash
-git clone https://github.com/yourusername/CSA.git
-cd CSA
-pip install .
+pip install git+https://github.com/bytecakelake/pytorch-cottention
 ```
 
 ## Usage
